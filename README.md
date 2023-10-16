@@ -1,6 +1,7 @@
 # API Restful - Ignite
 
 API desenvolvida durante trilha de especialização em Node.
+Feito com o propósito de reforçar aprendizado de Node com um framework de integração fácil com Typescript (Fastify), criação de banco de dados e migrações e também a realização de testes de integração.
 
 ## TECNOLOGIAS
 
@@ -13,13 +14,13 @@ API desenvolvida durante trilha de especialização em Node.
 
 ## REQUISITOS FUNCIONAIS
 
-[ x ] O usuário deve poder criar uma nova transação;
-[ x ] O usuário deve poder obter um resumo da sua conta;
-[ x ] O usuário deve poder listar todas transações que já ocorreram;
-[ x ] O usuário deve poder visualizar uma transação única;
+- O usuário deve poder criar uma nova transação;
+- O usuário deve poder obter um resumo da sua conta;
+- O usuário deve poder listar todas transações que já ocorreram;
+- O usuário deve poder visualizar uma transação única;
 
 ## REGRAS DE NEGÓCIO
 
-[ x ] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá;
-[ x ] Deve ser possível identificarmos o usuário entre as requisições;
-[ x ] O usuário só pode visualizar transações as quais ele criou;
+- A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá;
+- Deve ser possível identificarmos o usuário entre as requisições;
+- O usuário só pode visualizar transações as quais ele criou;
